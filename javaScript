@@ -1,0 +1,26 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <body>
+                <script language=javascript type ="text/javascript">
+                function Heron(a, b, c) {
+                 var p = (a + b + c) / 2;
+                 var t = p * (p - a) * (p - b) * (p - c);
+                 var area = t ** (1/2);
+                 return area;
+
+                }
+
+                var a= parseFloat(prompt("Lado A: "));
+                var b= parseFloat(prompt("Lado B: "));
+                var c= parseFloat(prompt("Lado C: "));
+                
+                document.write(Heron(a, b, c));
+                document.write("<br>");
+                
+                
+        </script>
+        </body>
+    </head>
+    </html>
+    </DOCTYPE>
